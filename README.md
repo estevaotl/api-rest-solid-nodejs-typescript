@@ -1,6 +1,6 @@
 # Descrição do Projeto
 - Esse projeto foi feito visando o aprofundamento no estudo do back-end.
-- Para isso, foi criado uma API para envio de emails, utilizando principios do solid, tendo como base o [video da rocketseat](https://www.youtube.com/watch?v=vAV4Vy4jfkc&list=WL&index=8&t=2353s).
+- Para isso, foi criado uma API para envio de emails, utilizando principios do [Solid](https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530), tendo como base o [video da rocketseat](https://www.youtube.com/watch?v=vAV4Vy4jfkc&list=WL&index=8&t=2353s).
 - Plataforma de emails utilizada no projeto: https://mailtrap.io/
 
 ## Tecnologias Utilizadas
@@ -14,7 +14,7 @@
 ```
 npm start
 ```
-- Abre um aplicativo de requisições, como o Insomnia ou Postman, e realize uma requisição via post para `http://localhost:3333/user`, enviando no body em formato json:
+- Abre um aplicativo de requisições, como o Insomnia ou Postman, e realize uma requisição via post para `http://localhost:3333/users`, enviando no body em formato json:
 {
 	"name": "nome",
 	"email": "email",
