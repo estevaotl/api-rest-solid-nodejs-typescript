@@ -22,7 +22,7 @@ export class CreateUserUseCase {
 
         await this.usersRepository.save(user);
 
-        this.mailProvider.sendEmail({
+        await this.mailProvider.sendEmail({
             to: {
                 name: data.name,
                 email: data.email
